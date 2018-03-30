@@ -16,11 +16,13 @@ I calculated the weighted appearance frequency of the phrase "America First" by 
 
 Graph: Using Bokeh, I created a line graph showing the weighted appearance frequency (y-axis) over the years 1900-1922 (x-axis)
 
-Conclusions: There is a clear rise in the frequency of the phrase "America first" after the outbreak of WWI in 1914. This rise continues through 1917 when America entered the war. Interestingly, once the country is in the war, the phrase begins to occur less frequently, presumably because writers were less willing to criticize American involvement in a war in which US soldiers' lives were at risk. There is also a slight rise in the phrase's frequency in the lead up to the founding of the League of Nations.
+Conclusions: There is a clear rise in the frequency of the phrase "America first" after the outbreak of WWI in 1914. This rise continues through 1917 when America entered the war. There is also a slight rise in the phrase's frequency in the lead up to the founding of the League of Nations.
 
 Unexpectedly 1906 often shows a spike when running the data. This spike is presumably related to the "See America First" movement, a tourism campaign that began in Salt Lake City that year. In the future, I need to refine the program to remove such instances, especially because this campaign continued into the 1910's.
 
 Further refinement will also lead to storing the month as part of the date information I'm collecting. This will allow me to more clearly find connections between world events and the occurrence of the phrase "America first."
+
+Ideally my technical skills will evolve to the point that I can sample the library's collection of newspapers with better accuracy and comprehension
 
 To run: Run America_First_Frequency_Graph_delivered.ipynb with JupyterNotebooks. You will need python and JupyterNotebooks. The script also uses the following import statements:
 
