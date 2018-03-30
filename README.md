@@ -22,7 +22,8 @@ Unexpectedly 1906 often shows a spike when running the data. This spike is presu
 
 Further refinement will also lead to storing the month as part of the date information I'm collecting. This will allow me to more clearly find connections between world events and the occurrence of the phrase "America first."
 
-To run: You will need python and JupyterNotebooks. The script also uses the following import statements:
+To run: Run America_First_Frequency_Graph_delivered.ipynb with JupyterNotebooks. You will need python and JupyterNotebooks. The script also uses the following import statements:
+
   import requests
   
   import from collections import Counter
