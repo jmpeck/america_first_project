@@ -2,6 +2,15 @@
 
 # creator: John Peck
 
+To run: You will need python and JupyterNotebooks. The script also uses the following import statements:
+  import requests
+  import from collections import Counter
+  import random
+  import sqlite
+  from bokeh.io import show, output_notebook
+  from bokeh.plotting import figure, output_file, show
+  from bokeh.models import HoverTool, FuncTickFormatter, FixedTicker, ColumnDataSource
+
 Overview: This project tracks the appearance of "America first" in newspapers between 1900 and 1922. My goal was to investigate whether the phrase occurred more frequently around events like the outbreak of World War I and the formation of the League of Nations. 
 
 My data: The Library of Congress and the National Endowment for the Humanities offer access to around 100,000 digitized historical newspaper pages through a website called "Chronicling America." Information can be found here: https://chroniclingamerica.loc.gov/about/.
