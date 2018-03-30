@@ -1,6 +1,6 @@
 # america_first_project
 
-Overview: This project tracks the appearance of "America first" in newspapers betwen 1900 and 1922. My goal was to investigate whether the phrase occurred more frequently around events like the outbreak of World War I and the formation of the League of Nations. 
+Overview: This project tracks the appearance of "America first" in newspapers between 1900 and 1922. My goal was to investigate whether the phrase occurred more frequently around events like the outbreak of World War I and the formation of the League of Nations. 
 
 My data: The Library of Congress and the National Endowment for the Humanities offer access to around 100,000 digitized historical newspaper pages through a website called "Chronicling America." Information can be found here: https://chroniclingamerica.loc.gov/about/.
 
@@ -12,6 +12,10 @@ In the end, I had two sets: a set of "America first" mentions per year and a set
 
 I calculated the weighted appearance frequency of the phrase "America First" by dividing the instances for a certain year in my "America first" set by the instances for that year in my empty-search set.  For example, if 1916 occurs 99 times in the first set and 90 times in the second set, the weighted appearance frequency would be 1.1.
 
-Graph: Using Bokeh, I created a line graph showing the weighted appearance freqency (y-axis) over the years 1900-1922 (x-axis)
+Graph: Using Bokeh, I created a line graph showing the weighted appearance frequency (y-axis) over the years 1900-1922 (x-axis)
 
-Conclusions: There is a clear rise in the frequency of the phrase "America first" after the oubreak of WWI in 1914. This rise continues through 1917 when America entered the war. Interestingly, once the country is in the war, the phrase begins to occur less frequently, presumably because writers were less willing to criticize American involvement in a war in which US soldiers' lives were at risk. There is also a slight rise in the phrase's frequency in the lead up to the founding of the League of Nations.
+Conclusions: There is a clear rise in the frequency of the phrase "America first" after the outbreak of WWI in 1914. This rise continues through 1917 when America entered the war. Interestingly, once the country is in the war, the phrase begins to occur less frequently, presumably because writers were less willing to criticize American involvement in a war in which US soldiers' lives were at risk. There is also a slight rise in the phrase's frequency in the lead up to the founding of the League of Nations.
+
+Unexpectedly 1906 often shows a spike when running the data. This spike is presumably related to the "See America First" movement, a tourism campaign that began in Salt Lake City that year. In the future, I need to refine the program to remove such instances, especially because this campaign continued into the 1910's.
+
+Further refinement will also lead to storing the month as part of the date information I'm collecting. This will allow me to more clearly find connections between world events and the occurrence of the phrase "America first."
